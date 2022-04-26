@@ -1,0 +1,79 @@
+/****** BODY STYLES ********/
+
+body {
+    background: #E8E8E8;
+}
+
+#vision-board {
+    margin: 50px auto;
+    width: 1200px;
+    height: 850px;
+    overflow: auto;
+    background: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.block {
+    float: left;
+    box-sizing: border-box;
+    width: 400px;
+
+}
+.small-block {
+    padding: 20px 40px;
+    height: 210px;
+}
+
+.large-block {
+    padding: 70px 40px;
+    height:430px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.dark-bg {
+    background: #3B3B3B;
+    color: #FFFFFF;
+}
+
+.light-bg {
+    background: #FFFFFF;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.title .marker {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+
+ .highlight {
+    background-color: #FFF44F;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.uppercase {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.capitalize {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
